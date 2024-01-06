@@ -23,7 +23,7 @@ const Favorite = () => {
               fontFamily: 'Montserrat-Bold',
               marginVertical: '20%',
             }}>
-            Sepette Ürün Yok!
+            Favori Ürün Yok!
           </Text>
         ) : (
           favoriteItems.map((item: any, index: Key) => (
